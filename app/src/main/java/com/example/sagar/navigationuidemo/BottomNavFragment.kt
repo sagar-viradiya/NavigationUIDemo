@@ -12,9 +12,6 @@ import kotlinx.android.synthetic.main.fragment_bottom_nav.*
 
 /**
  * A simple [Fragment] subclass.
- * Use the [BottomNavFragment.newInstance] factory method to
- * create an instance of this fragment.
- *
  */
 class BottomNavFragment : Fragment() {
 
@@ -28,16 +25,5 @@ class BottomNavFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val navController = Navigation.findNavController(requireActivity(), R.id.bottomNavFragment)
         bottomNavigation.setupWithNavController(navController)
-    }
-
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment.
-         *
-         * @return A new instance of fragment BottomNavFragment.
-         */
-        @JvmStatic
-        fun newInstance() = BottomNavFragment()
     }
 }
