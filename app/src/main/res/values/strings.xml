@@ -5,4 +5,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="bottomnav_menu_title">BottomNav</string>
     <string name="info_menu_title">Info</string>
+    <string name="home_bottom_nav_item_title">Home</string>
+    <string name="screen_bottom_nav_title">Screen</string>
 </resources>

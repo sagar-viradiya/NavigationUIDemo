@@ -6,6 +6,9 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.Navigation
+import androidx.navigation.ui.setupWithNavController
+import kotlinx.android.synthetic.main.fragment_bottom_nav.*
 
 /**
  * A simple [Fragment] subclass.
@@ -21,6 +24,11 @@ class BottomNavFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_bottom_nav, container, false)
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val navController = Navigation.findNavController(requireActivity(), R.id.bottomNavFragment)
+        bottomNavigation.setupWithNavController(navController)
+    }
 
     companion object {
         /**

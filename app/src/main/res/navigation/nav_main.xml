@@ -5,28 +5,6 @@
     android:id="@+id/nav_main"
     app:startDestination="@id/bottomNavFragment">
 
-    <navigation
-        android:id="@+id/nav_secondary"
-        app:startDestination="@id/bottomNavFragmentOne">
-
-        <fragment
-            android:id="@+id/bottomNavFragmentOne"
-            android:name="com.example.sagar.navigationuidemo.BottomNavFragmentOne"
-            tools:layout="@layout/fragment_bottom_nav_fragment_one"/>
-
-        <fragment
-            android:id="@+id/bottomNavFragmentTwo"
-            android:name="com.example.sagar.navigationuidemo.BottomNavFragmentTwo"
-            tools:layout="@layout/fragment_bottom_nav_fragment_two"/>
-
-        <fragment
-            android:id="@+id/bottomNavFragmentThree"
-            android:name="com.example.sagar.navigationuidemo.BottomNavFragmentThree"
-            tools:layout="@layout/fragment_bottom_nav_fragment_three"/>
-
-
-    </navigation>
-
     <fragment
         android:id="@+id/bottomNavFragment"
         android:name="com.example.sagar.navigationuidemo.BottomNavFragment"
