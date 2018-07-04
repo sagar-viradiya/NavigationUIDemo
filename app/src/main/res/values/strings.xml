@@ -5,4 +5,6 @@
     <string name="home_bottom_nav_item_title">Home</string>
     <string name="screen_bottom_nav_title">Screen</string>
     <string name="info_text">Sample app showcasing use of NavigationUI library to hook two material components BottomNavigationView and NavigationView with nav graph.\n\nFind the source code on github at https://github.com/sagar-viradiya/NavigationUIDemo</string>
+    <string name="nav_header_1">Jetpack</string>
+    <string name="nav_header_2">Navigation</string>
 </resources>

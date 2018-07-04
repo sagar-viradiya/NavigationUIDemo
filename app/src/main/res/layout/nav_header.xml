@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="?attr/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/nav_header_1"/>
+
+    <ImageView
+        android:layout_width="104dp"
+        android:layout_height="104dp"
+        android:layout_gravity="center"
+        android:src="@drawable/jetpack_logo_small"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="16dp"
+        android:textSize="20sp"
+        android:text="@string/nav_header_2"
+        android:layout_gravity="bottom|center_horizontal"/>
+
+</FrameLayout>
