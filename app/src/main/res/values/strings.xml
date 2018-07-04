@@ -1,10 +1,8 @@
 <resources>
     <string name="app_name">NavigationUIDemo</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="bottomnav_menu_title">BottomNav</string>
     <string name="info_menu_title">Info</string>
     <string name="home_bottom_nav_item_title">Home</string>
     <string name="screen_bottom_nav_title">Screen</string>
+    <string name="info_text">Sample app showcasing use of NavigationUI library to hook two material components BottomNavigationView and NavigationView with nav graph.\n\nFind the source code on github at https://github.com/sagar-viradiya/NavigationUIDemo</string>
 </resources>
