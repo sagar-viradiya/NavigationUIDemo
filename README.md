@@ -6,7 +6,7 @@ Sample app to demonstrate implementing navigation with BottomNavigationView and 
 ![Home screen jetpack logo](screenshots/app_screenshot_two.png "Home screen jetpack logo")
 ![Home screen droid](screenshots/app_screenshot_three.png "Home screen droid")
 ![Screen info](screenshots/app_screenshot_four.png "Screen info")
-![Nav drawer](screenshots/app_screenshots_five.png "Nav drawer")
+![Nav drawer](screenshots/app_screenshot_five.png "Nav drawer")
 
 # License
 
