@@ -1,5 +1,5 @@
 # NavigationUIDemo
-Sample app to demonstrate implementing navigation with BottomNavigationView and NavigationView material components. App shows how to hook navigation graph with BottomNavigationView and NavigationView.
+Sample app to demonstrate implementing navigation with [BottomNavigationView](https://developer.android.com/reference/android/support/design/widget/BottomNavigationView) and [NavigationView](https://developer.android.com/reference/android/support/design/widget/NavigationView) material components. App shows how to hook navigation graph with BottomNavigationView and NavigationView using [NavigationUI](https://developer.android.com/reference/androidx/navigation/ui/NavigationUI).
 
 If you've found an error in this sample, please file an [issue](https://github.com/sagar-viradiya/NavigationUIDemo/issues). Patches are encouraged, just open PR.
 
