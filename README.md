@@ -1,6 +1,8 @@
 # NavigationUIDemo
 Sample app to demonstrate implementing navigation with BottomNavigationView and NavigationView material components. App shows how to hook navigation graph with BottomNavigationView and NavigationView.
 
+If you've found an error in this sample, please file an [issue](https://github.com/sagar-viradiya/NavigationUIDemo/issues). Patches are encouraged, just open PR.
+
 # Screenshots
 ![Home screen jetpack chart](screenshots/app_screenshot_one.png "Home screen jetpack chart")
 ![Home screen jetpack logo](screenshots/app_screenshot_two.png "Home screen jetpack logo")
