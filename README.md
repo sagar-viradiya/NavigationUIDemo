@@ -2,11 +2,11 @@
 Sample app to demonstrate implementing navigation with BottomNavigationView and NavigationView material components. App shows how to hook navigation graph with BottomNavigationView and NavigationView.
 
 #Screenshots
-![Home screen jetpack chart](screenshots/app_screenshots_one.png "Home screen jetpack chart")
-![Home screen jetpack logo](screenshots/app_screenshots_two.png "Home screen jetpack logo")
-![Home screen droid](screenshots/app_screenshots_three.png "Home screen droid")
-![Screen info](screenshots/app_screenshots_four.png "Screen info")
-![Nav drawer](screenshots/app_screenshots_five.png "Nav drawer")
+![Home screen jetpack chart](https://github.com/sagar-viradiya/NavigationUIDemo/blob/master/screenshots/app_screenshot_one.png "Home screen jetpack chart")
+![Home screen jetpack logo](https://github.com/sagar-viradiya/NavigationUIDemo/blob/master/screenshots/app_screenshot_two.png "Home screen jetpack logo")
+![Home screen droid](https://github.com/sagar-viradiya/NavigationUIDemo/blob/master/screenshots/app_screenshot_three.png "Home screen droid")
+![Screen info](https://github.com/sagar-viradiya/NavigationUIDemo/blob/master/screenshots/app_screenshot_four.png "Screen info")
+![Nav drawer](https://github.com/sagar-viradiya/NavigationUIDemo/blob/master/screenshots/app_screenshot_five.png "Nav drawer")
 
 # License
 
