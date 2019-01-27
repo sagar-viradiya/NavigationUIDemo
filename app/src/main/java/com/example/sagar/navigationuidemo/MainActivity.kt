@@ -3,6 +3,7 @@ package com.example.sagar.navigationuidemo
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import androidx.navigation.Navigation
+import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
 import kotlinx.android.synthetic.main.activity_main.*
@@ -13,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val navController = Navigation.findNavController(this, R.id.mainNavFragment)
+        val navController = findNavController(R.id.mainNavFragment)
 
         // Set up ActionBar
         setSupportActionBar(toolbar)
@@ -24,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onSupportNavigateUp(): Boolean {
-        return NavigationUI.navigateUp(drawerLayout,
-                Navigation.findNavController(this, R.id.mainNavFragment))
+        return NavigationUI.navigateUp(
+                Navigation.findNavController(this, R.id.mainNavFragment), drawerLayout)
     }
 }

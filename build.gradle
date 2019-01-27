@@ -9,10 +9,10 @@ buildscript {
         targetSdkVersion = 28
 
         espressoVersion = '3.1.0-alpha3'
-        gradleVersion = '3.2.0-rc02'
+        gradleVersion = '3.4.0-beta02'
         junitVersion = '4.12'
-        navigationVersion = '1.0.0-alpha06'
-        kotlinVersion = '1.2.71'
+        navigationVersion = '1.0.0-alpha11'
+        kotlinVersion = '1.3.20'
         runnerVersion = '1.1.0-alpha3'
         supportLibraryVersion = '28.0.0'
     }
