@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/sagar-viradiya/NavigationUIDemo/blob/master/LICENSE) [![Android Weekly](https://img.shields.io/badge/Android%20Weekly-%23318-blue.svg)](https://androidweekly.net/issues/issue-318)
+
 # NavigationUIDemo
 Sample app to demonstrate implementing navigation with [BottomNavigationView](https://developer.android.com/reference/android/support/design/widget/BottomNavigationView) and [NavigationView](https://developer.android.com/reference/android/support/design/widget/NavigationView) material components. App shows how to hook navigation graph with BottomNavigationView and NavigationView using [NavigationUI](https://developer.android.com/reference/androidx/navigation/ui/NavigationUI).
 
